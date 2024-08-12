@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><form action="ordertask.html">
+    <dl>
+        <dt>
+            <label for="name">Name</label>
+        </dt>
+        <dd>
+            <input type="text" name="name" id="name" pattern="[a-zA-Z]+{20,30}" required autofocus>
+        </dd>
+        <dt>
+            <label for="phno">Mobile No</label>
+        </dt>
+        <dd>
+            <input type="number" name="phno" id="phno" pattern="/d+{0,10}" required >
+        </dd>
+        <dt>
+            <label for="address">Address</label>
+        </dt>
+            <dd>
+                <textarea name="address" id="address"></textarea>
+            </dd>
+        <input type="submit" value="Place Order">
+        </dl>
+     </form>
+     
+ <a href="fronttask.html">Go Back</a>
+       
+</body>
+</html>
